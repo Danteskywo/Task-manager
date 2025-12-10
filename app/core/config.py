@@ -25,3 +25,6 @@ class Settings (BaseSettings):
         if isinstance(v, str):
             return v
         return PostgresDsn.build()
+    
+
+    
